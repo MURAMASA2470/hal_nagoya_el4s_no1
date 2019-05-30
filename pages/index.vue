@@ -6,18 +6,16 @@
     <v-progress-linear value="60" indeterminate></v-progress-linear>
     
     <div class="profile">
-
-    <div style="float:left;" class="person">
-      <v-avatar>
-        <img src="https://cdn.discordapp.com/avatars/491812248134877188/906ab4aac87dd2d88ddb0a6a2df508dc.png?size=256" alt="avater">
-      </v-avatar>
-      <span>ししょう</span>
+      <div style="float:left;" class="person">
+        <v-avatar>
+          <img src="https://cdn.discordapp.com/avatars/491812248134877188/906ab4aac87dd2d88ddb0a6a2df508dc.png?size=256" alt="avater">
+        </v-avatar>
+        <span>ししょう</span>
       </div>
       <v-spacer></v-spacer>
       <div style="float:right;" class="country">
         <v-img width="64" src="https://rr.img.naver.jp/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20140512%2F11%2F1250381%2F1%2F588x388xb4e189c2fe54166f076d6256.jpg%2F300%2F600&twidth=300&theight=600&qlt=80&res_format=jpg&op=r" />
       </div>
-
     </div>
 
   </div>
