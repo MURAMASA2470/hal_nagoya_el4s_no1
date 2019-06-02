@@ -1,5 +1,5 @@
 <template>
-  <v-app dark style="height:100vh;">
+  <v-app light style="height:100vh;">
 
     <v-navigation-drawer
       v-model="drawer"
@@ -31,9 +31,10 @@
       fixed
       app
     >
-      <v-toolbar-side-icon @click="drawer = !drawer" />
+      <!-- <v-toolbar-side-icon @click="drawer = !drawer" /> -->
      
       <v-toolbar-title v-text="title" />
+
       <v-spacer />
       
     </v-toolbar>
@@ -50,6 +51,10 @@
 
   </v-app>
 </template>
+
+<style scoped>
+</style>
+
 
 <script>
 import BottomNav from '~/components/bottomNav.vue'
@@ -73,7 +78,7 @@ export default {
         }
       ],
       miniVariant: false,
-      title: 'テンプレ'
+      title: 'Fuji Design'
     }
   },
   components: {

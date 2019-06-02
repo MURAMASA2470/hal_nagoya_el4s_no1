@@ -4,34 +4,59 @@
       :value="true"
       absolute
     >
-      <v-btn v-for="(item, i) in navItems" :key="i" :to="item.to" :color="item.color" flat >
-        <span v-text="item.title" class=""></span>
-        <v-icon v-text="item.icon"></v-icon>
+      <v-btn to="/" color="yellow" flat >
+        <span class=""></span>
+        <v-icon>home</v-icon>
+      </v-btn>
+      
+      <!-- <v-btn to="" color="yellow" class="center-btn">
+        <span class=""></span>
+        <v-icon>add</v-icon>
+      </v-btn> -->
+      <v-btn></v-btn>
+
+      <a href="/preview" class="center-btn">
+        <span class=""></span>
+        <v-icon>add</v-icon>
+      </a>
+
+      <v-btn to="secondary" color="yellow" flat >
+        <span class=""></span>
+        <v-icon>insert_emoticon</v-icon>
       </v-btn>
 
     </v-bottom-nav>
 </template>
+
+<style lang="css" scoped>
+.center-btn {
+  background-color: rgb(255, 208, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top:-17px;
+}
+
+i {
+  font-size: 2rem;
+}
+
+.center-btn > i {
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  line-height: 6rem;
+}
+</style>
+
 
 <script>
 
   export default {
     data () {
       return {
-        bottomNav: 'Home', 
-        navItems: [
-          {
-            icon: 'home', 
-            title: 'Home', 
-            color: 'teal', 
-            to: '/'
-          }, 
-          {
-            icon: 'favorites', 
-            title: 'Secondary', 
-            color: 'teal', 
-            to: '/secondary'
-          }
-        ]
       }
     }
   }
