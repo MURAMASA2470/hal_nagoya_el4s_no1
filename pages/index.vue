@@ -3,7 +3,7 @@
 <v-layout column>
 
   <div style="position:absolute;padding:20px;width:100vw;z-index:999;">
-    <v-progress-linear value="60" indeterminate></v-progress-linear>
+    <!-- <v-progress-linear value="60" indeterminate></v-progress-linear> -->
     
     <div class="profile">
       <div style="float:left;" class="person">
@@ -21,7 +21,7 @@
   </div>
 
 
-  <v-carousel hide-delimiters hide-controls height="100vh" :interval="second">
+  <v-carousel hide-delimiters hide-controls height="90vh" :interval="second">
     <v-carousel-item src="https://uds.gnst.jp/rest/img/k9e7wv5v0000/s_0034.jpg?t=1531897297"/>
     <v-carousel-item src="https://s3-ap-northeast-1.amazonaws.com/mag.nearly.do/item_getties/images/000/135/351/medium/8b1a2f53-5937-42ca-88bc-e63098c137f5.jpg?1529681226"/>
     <v-carousel-item src="https://housefoods-group.com/activity/e-mag/magazine/images/04/a.jpg"/>

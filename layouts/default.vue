@@ -1,7 +1,7 @@
 <template>
-  <v-app dark>
+  <v-app dark style="height:100vh;">
 
-    <!-- <v-navigation-drawer
+    <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
@@ -36,7 +36,7 @@
       <v-toolbar-title v-text="title" />
       <v-spacer />
       
-    </v-toolbar> -->
+    </v-toolbar>
 
     <v-content>
       <!-- <v-container> -->
@@ -44,9 +44,9 @@
       <!-- </v-container> -->
     </v-content>
 
-    <!-- <v-footer :fixed="fixed" app>
+    <v-footer :fixed="fixed" app>
       <BottomNav :fixed="fixed"/>
-    </v-footer> -->
+    </v-footer>
 
   </v-app>
 </template>
