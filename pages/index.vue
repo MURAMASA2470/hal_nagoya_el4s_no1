@@ -2,6 +2,8 @@
   
 <v-layout column>
 
+  <!-- <videoPlayer path="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" /> -->
+
 <v-container grid-list-xl>
   <eventList />
 </v-container>
@@ -11,16 +13,17 @@
 
 <script>
 import EventList from '~/components/eventList.vue'
+import VideoPlayer from '~/components/video.vue'
 
 export default {
   data() {
     return {
-      second: 6 * 1000, 
 
     }
   }, 
   components: {
-    EventList
+    EventList, 
+    VideoPlayer
   }
 }
 </script>

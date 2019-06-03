@@ -1,6 +1,5 @@
 <template>
     <v-bottom-nav
-      :active.sync="bottomNav"
       :value="true"
       absolute
     >
@@ -20,7 +19,7 @@
         <v-icon>add</v-icon>
       </a>
 
-      <v-btn to="secondary" color="yellow" flat >
+      <v-btn to="/secondary" color="yellow" flat >
         <span class=""></span>
         <v-icon>insert_emoticon</v-icon>
       </v-btn>
@@ -55,7 +54,7 @@ i {
 <script>
 
   export default {
-    data () {
+    data: () => {
       return {
       }
     }

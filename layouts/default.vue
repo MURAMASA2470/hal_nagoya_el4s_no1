@@ -1,5 +1,5 @@
 <template>
-  <v-app light style="height:100vh;">
+  <v-app  style="height:100vh;">
 
     <v-navigation-drawer
       v-model="drawer"
@@ -65,18 +65,6 @@ export default {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
-        {
-          icon: 'apps',
-          title: 'Home',
-          to: '/'
-        },
-        {
-          icon: 'bubble_chart',
-          title: 'Secondary',
-          to: '/secondary'
-        }
-      ],
       miniVariant: false,
       title: 'Fuji Design'
     }
