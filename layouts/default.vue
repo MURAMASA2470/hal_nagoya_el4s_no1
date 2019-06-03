@@ -29,7 +29,9 @@
     <v-toolbar
       :clipped-left="clipped"
       fixed
+      :manual-scroll="false"
       app
+      color="#2FCB71"
     >
       <!-- <v-toolbar-side-icon @click="drawer = !drawer" /> -->
      
@@ -46,7 +48,7 @@
     </v-content>
 
     <v-footer :fixed="fixed" app>
-      <BottomNav :fixed="fixed"/>
+      <BottomNav />
     </v-footer>
 
   </v-app>

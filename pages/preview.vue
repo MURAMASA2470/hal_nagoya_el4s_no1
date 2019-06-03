@@ -29,9 +29,9 @@
     :paginationEnabled="false"
     :autoplay-timeout="4000"
     >
-    <slide style="height:85vh;"><v-img style="height:100%;" src="https://uds.gnst.jp/rest/img/k9e7wv5v0000/s_0034.jpg?t=1531897297"/></slide>
-    <slide style="height:85vh;"><v-img style="height:100%;" src="https://s3-ap-northeast-1.amazonaws.com/mag.nearly.do/item_getties/images/000/135/351/medium/8b1a2f53-5937-42ca-88bc-e63098c137f5.jpg?1529681226"/></slide>
-    <slide style="height:85vh;"><v-img style="height:100%;" src="https://housefoods-group.com/activity/e-mag/magazine/images/04/a.jpg"/></slide>
+    <slide style="height:88vh;"><v-img style="height:100%;" src="https://uds.gnst.jp/rest/img/k9e7wv5v0000/s_0034.jpg?t=1531897297"/></slide>
+    <slide style="height:88vh;"><v-img style="height:100%;" src="https://s3-ap-northeast-1.amazonaws.com/mag.nearly.do/item_getties/images/000/135/351/medium/8b1a2f53-5937-42ca-88bc-e63098c137f5.jpg?1529681226"/></slide>
+    <slide style="height:88vh;"><v-img style="height:100%;" src="https://housefoods-group.com/activity/e-mag/magazine/images/04/a.jpg"/></slide>
   </carousel>
 
 <!-- <v-container grid-list-xl>
@@ -64,7 +64,7 @@ export default {
           console.log(e);
       }, 
       profileTapped: () => {
-          location.href="/";
+          location.href="/mypage";
       }
   }, 
   components: {
