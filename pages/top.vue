@@ -30,6 +30,7 @@
         bottom: 0;
         left: 0;
         width: 100vw;
+        color: white !important;
     }
 
         .btn button {

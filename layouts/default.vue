@@ -68,7 +68,7 @@ export default {
       drawer: false,
       fixed: false,
       miniVariant: false,
-      title: 'Fuji Design'
+      title: 'OsuTabi'
     }
   },
   components: {

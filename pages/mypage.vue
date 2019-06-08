@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="profile">
-            <v-img style="width:100vw;" src="http://ceskylove.com/wp-content/uploads/2016/12/mig2.jpg" />
+            <v-img style="width:100vw;" src="https://mi-journey.jp/foodie/wp-content/uploads/2016/12/12_13_kimchi_01.jpg" />
             <v-img width="64" class="flag" src="https://rr.img.naver.jp/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20140512%2F11%2F1250381%2F1%2F588x388xb4e189c2fe54166f076d6256.jpg%2F300%2F600&twidth=300&theight=600&qlt=80&res_format=jpg&op=r" />
 
             <v-avatar size="128px">
