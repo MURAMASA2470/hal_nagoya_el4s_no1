@@ -3,25 +3,21 @@
       :value="true"
       absolute
     >
-      <v-btn to="/" color="yellow" flat >
+      <v-btn to="/home" color="yellow" flat >
         <span class=""></span>
-        <v-icon>home</v-icon>
+        <v-icon>insert_emoticon</v-icon>
       </v-btn>
-      
-      <!-- <v-btn to="" color="yellow" class="center-btn">
-        <span class=""></span>
-        <v-icon>add</v-icon>
-      </v-btn> -->
+
       <v-btn></v-btn>
 
-      <a href="/preview" class="center-btn">
+      <a href="/addition" class="center-btn">
         <span class=""></span>
         <v-icon>add</v-icon>
       </a>
 
-      <v-btn to="/secondary" color="yellow" flat >
+      <v-btn to="/mypage" color="yellow" flat >
         <span class=""></span>
-        <v-icon>insert_emoticon</v-icon>
+        <v-icon>home</v-icon>
       </v-btn>
 
     </v-bottom-nav>
