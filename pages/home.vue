@@ -9,7 +9,7 @@
   </div>
 
   <div class="play-icon">
-    <n-link to="/preview"><v-img src="https://icon-pit.com/wp-content/uploads/2018/10/play_icon_764-300x300.png"></v-img></n-link>
+    <n-link to="/preview"><v-img src="https://cdn.discordapp.com/attachments/582438479317827584/586735402912841728/play-5063_92095300-a1b5-42aa-af42-8e2ff343fd58.svg"></v-img></n-link>
   </div>
 
 </v-layout>
@@ -17,8 +17,9 @@
 
 <style scoped>
   .play-icon {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     bottom: 0;

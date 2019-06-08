@@ -14,7 +14,7 @@
       </div>
       <v-spacer></v-spacer>
       <div style="float:right;" class="country">
-        <v-icon color="red" style="margin-right:10px;" x-large @click="favState = !favState">favorite{{ favState ? '_border' : '' }}</v-icon>
+        <v-icon color="red" style="margin-right:10px;" x-large @click="favState = !favState">favorite{{ !favState ? '_border' : '' }}</v-icon>
         <v-img width="64" style="float:right;" src="https://rr.img.naver.jp/mig?src=http%3A%2F%2Fimgcc.naver.jp%2Fkaze%2Fmission%2FUSER%2F20140512%2F11%2F1250381%2F1%2F588x388xb4e189c2fe54166f076d6256.jpg%2F300%2F600&twidth=300&theight=600&qlt=80&res_format=jpg&op=r" />
       </div>
     </div>
